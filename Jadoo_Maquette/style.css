@@ -212,8 +212,7 @@ p{
 }
 .settings a{
     display: inline-block;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .satelit a h2{
     padding-top: 30px;
@@ -251,7 +250,7 @@ p{
 }
 .second{
     text-align: center;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 .second h2{
     font-family: 'Poppins', sans-serif;
@@ -329,4 +328,23 @@ p{
 .jrs img{
     width: 16px;
     height: 16px;
+}
+.resort{
+    position: absolute;
+    top: 250px;
+    left: 1560px;
+    z-index: -1;
+}
+.trois h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:#5E6282; 
+}
+.trois h1{
+    font-family: 'Volkhov', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color:#14183E;
+    padding-top: 20px;
 }
