@@ -1,0 +1,332 @@
+*{ /* l'étoile: "*" vise TOUT le contenu*/
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-weight: normal;
+    font-size: 10px
+} /* ce code = reset = remettre les paramètre du moteur de cherche à 0 */
+
+body {
+    background: url('images/Tache_beige.png'), url('images/Tache_violet.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top right, top left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+    padding-left:10%;
+    padding-right:9% ;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 90px;
+    list-style: none;
+    align-items: center;
+}
+.menu a{
+    display: inline-block; /*quand on veut que notre lien soit un bouton (carré bouton et autres esthétiques)*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #212832;
+    text-decoration: none;
+}
+.sign{
+    display: inline-block;
+    border-color: #212832;
+    border-style: solid;
+    padding-inline: 20px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    text-decoration: none;
+}
+.principal{
+    padding-left: 10%;
+    padding-right: 9%;
+    display:flex;
+    margin-top: 130px;
+    gap: 60px;
+}
+section{
+    flex-direction: column;
+}
+.boutons{
+    display: flex;
+    gap: 44px;
+    margin-top: 54px;
+    align-items: center;
+}
+
+section h2{
+    color: #DF6951;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+section h1{
+    color:#181E4B;
+    font-size: 90px;
+    font-family: 'Volkhov', serif;
+    font-weight: bold;
+    margin-top: 24px;
+    letter-spacing: -4px;
+}
+header section h1 span{
+    position: relative;
+    color:#181E4B;
+    font-size: 90px;
+    font-family: 'Volkhov', serif;
+    font-weight: bold;
+}
+.souligne{
+    position: absolute;
+    bottom:20px;
+    left: -30px;
+    z-index: -1;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color:#5E6282;
+}
+.linetop{
+    margin-top: 35px;
+}
+.icon-play{
+    display: inline-block;
+    border-style: solid;
+    border-color: #DF6951;
+    background-color: #DF6951;
+    padding-inline: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-radius: 40px;
+    box-shadow: #df695148 0px 18px 20px;
+}
+.find{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: medium;
+    border-color: #F1A501;
+    border-style: solid;
+    background-color: #F1A501;
+    padding-inline: 20px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+    box-shadow: #f1a50138 0px 18px 20px;
+}
+.play{
+    color:#686D77;
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 17px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.femme{
+    margin-top: -100px;
+}
+
+.head{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.head h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:#5E6282; 
+}
+.head h1{
+    font-family: 'Volkhov', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color:#14183E;
+    padding-top: 20px;
+}
+.category{
+    position: relative;
+}
+.grille{
+    position: absolute;
+    left: 1650px;
+    top: 150px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 118px;
+    align-items: center;
+    padding-top: 90px; 
+    list-style: none;
+}
+
+.category article{
+    display: flex;
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 108px;
+    align-items: center;
+    gap: 118px; 
+    position: relative;
+}
+.satelit {
+    text-align: center;
+}   
+.avion {
+    text-align: center;
+    background-color: white;
+    border-radius: 36px;
+    padding-bottom: 40px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: #acacac2c 0px 20px 20px;
+}
+.micro {
+    text-align: center;
+}
+.settings {
+    text-align: center;
+}
+.satelit a{
+    display: inline-block;
+    text-decoration: none;
+}
+.avion a{
+    display: inline-block;
+    text-decoration: none;
+}
+.micro a{
+    display: inline-block;
+    text-decoration: none;
+}
+.settings a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.satelit a h2{
+    padding-top: 30px;
+} 
+.micro a h2{
+    padding-top: 30px;
+} 
+.settings a h2{
+    padding-top: 30px;
+} 
+.category article h2{
+    font-size: 20px;
+    color:#1E1D4C; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.satelit a p{
+    padding-top: 20px;
+} 
+.avion a p{
+    padding-top: 20px;
+} 
+.micro a p{
+    padding-top: 20px;
+} 
+.settings a p{
+    padding-top: 20px;
+} 
+.tache-r{
+    position: absolute;
+    padding-left:630px;
+    top: 620px;
+    z-index: -1;
+}
+.second{
+    text-align: center;
+    padding-top: 300px;
+}
+.second h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:#5E6282; 
+}
+.second h1{
+    font-family: 'Volkhov', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color:#14183E;
+    padding-top: 20px;
+}
+.destination article{
+    display: flex;
+    padding-left: 250px;
+    padding-right: 500px;
+    padding-top: 108px;
+    align-items: center;
+    position: relative;
+}
+.rome{
+    text-align: center;
+    background-color: white;
+    border-end-start-radius:  15px;
+    border-end-end-radius:  15px;
+    position: absolute;
+    top: 430px;
+    left: 330px;
+    min-width: 315px;
+    min-height: 137px;
+    padding: 20px;
+}
+.londre{
+    text-align: center;
+    background-color: white;
+    border-end-start-radius:  15px;
+    border-end-end-radius:  15px;
+    position: absolute;
+    top: 430px;
+    left: 803px;
+    min-width: 315px;
+    min-height: 137px;
+    padding: 20px;
+}
+.europe{
+    text-align: center;
+    background-color: white;
+    border-end-start-radius:  15px;
+    border-end-end-radius:  15px;
+    position: absolute;
+    top: 430px;
+    left: 1278px;
+    min-width: 315px;
+    min-height: 137px;
+    padding: 20px;
+}
+.pays{
+    display: flex;
+    justify-content: space-between;
+}
+.pays p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: medium;
+    font-size: 18px;
+    color:#5E6282;
+}
+.jrs{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+.jrs img{
+    width: 16px;
+    height: 16px;
+}
